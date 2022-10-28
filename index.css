@@ -1,0 +1,306 @@
+html, body {
+    font-family: 'Inter', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.font-family-oswald {
+    font-family: 'Oswald', sans-serif;
+}
+
+/* Nav bar */
+
+.header-nav {
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0px 0px 4px 0px;
+}
+
+.call-btn {
+    transform: translateY(40%);
+    height: 50%;
+    padding: 15px 20px;
+    background-color: #CD1D2B;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    border: 2px solid #CD1D2B;
+    border-radius: 10px;
+}
+
+.call-btn:hover {
+    color: #CD1D2B;
+    background-color: white;
+    transition: 0.5s ease-out;
+    cursor: pointer;
+}
+
+/* Banner/header intro */
+
+.banner {
+    z-index: -1;
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-image: url(images/victory-truck.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-bottom: 4px solid #CD1D2B;
+}
+
+.img-overlay {
+    position: absolute;
+    background-color: rgb(0, 0, 0, 0.3);
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+}
+
+.banner-text-container {
+    font-family: 'Oswald', sans-serif;
+    height: 100%;
+    color: white;
+    text-shadow: 5px 7px 8px 5px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.banner-text-h1 {
+    letter-spacing: 0px;
+    font-size: 2.5em;
+    z-index: 1;
+    margin-bottom: 0px;
+}
+
+.banner-text-p {
+    z-index: 1;
+    margin-top: 0px;
+}
+
+/* Services overview */
+
+.services-overview {
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+    width: 80%;
+    padding: 0px 10px;
+    box-shadow: 1px 2px 3px 2px rgb(0, 0, 0, 0.3);
+    margin-top: -75px;
+    z-index: 1;
+    background-color: white;
+}
+
+.service {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.service-overview-header-text,
+.service-overview-text {
+    margin: 0px;
+    font-family: "inter", sans-serif;
+}
+
+.service-overview-header-text {
+    font-family: 'Oswald', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.service-icon {
+    width: 40px;
+    height: 40x;
+}
+
+/* sections */
+
+.sections-container {
+    margin: 100px auto;
+    max-width: 1440px;
+}
+
+.section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 50px 30px;
+}
+
+.section-images {
+    width: 250px;
+    height: 400px;
+    box-shadow: 1px 2px 3px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+}
+
+.the-future-is-near-img {
+    background-image: url("images/spaying-building.png");
+    background-position: center;
+}
+
+.our-vision-img {
+    background-image: url("images/termite-damage.png");
+    background-position: center;
+}
+
+.section-2-our-vision {
+    flex-wrap: wrap-reverse;
+}
+
+.section-text-container,
+.temp-section-img-container {
+    margin: 35px 25px;
+}
+
+.section-text-container {
+    max-width: 500px;
+}
+
+.section-text-header {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    margin: 0px;
+}
+
+.section-text {
+    margin: 25px 0px 0px 0px;
+    font-weight: 200;
+    text-shadow: 1px 2px 3px 1px black;
+    line-height: 30px;
+}
+
+/* Services */
+
+.services-container {
+    margin: 0px auto;
+    max-width: 1440px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.service-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    margin: 20px 50px;
+}
+
+.services-section-header-text {
+   margin-bottom: 50px;
+   text-align: center;
+   text-decoration: underline 4px solid #CD1D2B;
+}
+
+.service-main-text {
+    margin: 0px;
+    font-family: 'Inter', sans-serif;
+    line-height: 30px;
+    font-weight: 200;
+    text-shadow: 1px 2px 3px 1px;
+}
+
+.general-pest-control-img {
+    background-image: url("images/termite-damage.png");
+    background-position: center;
+    box-shadow: 1px 2px 3px 1px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    height: 200px;
+}
+
+.rodent-control-img {
+    background-image: url("images/holding-rat.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px -50px;
+    box-shadow: 1px 2px 3px 1px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    height: 200px;
+}
+
+/* Serivce pricing */
+
+.service-pricing {
+    border-top: 4px solid #CD1D2B;
+    margin-top: 75px;
+    background-color: #677586;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+}
+
+.service-pricing-text-container {
+    text-align: center;
+    max-width: 1200px;
+    margin: 0px auto;
+    padding-top: 40px;
+    line-height: 30px;
+}
+
+.service-pricing-text {
+    margin: 0px 20px;
+}
+
+.service-pricing-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.service-price-container {
+    line-height: 30px;
+    max-width: 345px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 30px;
+}
+
+.priceTag-img {
+    width: 70px;
+    height: 70px;
+}
+
+.call-btn-pricing {
+    border: 2px solid #CD1D2B;
+    background-color: #CD1D2B;
+    padding: 10px 25px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.call-btn-pricing:hover {
+    color: #CD1D2B;
+    background-color: white;
+    transition: 0.5s ease-out;
+    cursor: pointer;
+}
+
+/* Extra styling */
+
+.underline {
+    border-bottom: 4px solid #CD1D2B;
+    margin-top: 0px;
+}
+
+.temp-img {
+    width: 100%;
+    height: 200px;
+    background-image: url("images/victory-truck.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
