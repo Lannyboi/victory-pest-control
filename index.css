@@ -233,30 +233,23 @@ font-family: 'Oswald', sans-serif;
     text-shadow: 1px 2px 3px 1px;
 }
 
-.general-pest-control-img {
-    background-image: url("images/general-pest-control.jpg");
-    background-size: cover;
-    box-shadow: 1px 2px 3px 1px rgba(0, 0, 0, 0.5);
-    height: 200px;
-    width: 300px;
-}
-
-.termite-control-img {
-    background-image: url("images/termite-damage.png");
-    background-position: center;
+.service-images {
+    object-fit: cover;
     box-shadow: 1px 2px 3px 1px rgba(0, 0, 0, 0.5);
     width: 300px;
     height: 200px;
 }
 
-.rodent-control-img {
-    background-image: url("images/holding-rat.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 0px -50px;
-    box-shadow: 1px 2px 3px 1px rgba(0, 0, 0, 0.5);
-    width: 300px;
-    height: 200px;
+.general-img {
+    object-position: 0px;
+}
+
+.termite-img {
+    object-position: 0px;
+}
+
+.rodent-img {
+    object-position: 0px -50px;
 }
 
 /* Serivce pricing */
