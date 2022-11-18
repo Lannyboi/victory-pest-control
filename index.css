@@ -197,7 +197,7 @@ html, body {
     margin: 25px 0px 0px 0px;
     font-weight: 200;
     text-shadow: 10px 20px 30px 10px black;
-    line-height: 30px;
+    line-height: 35px;
 }
 
 /* Services */
@@ -335,6 +335,10 @@ footer {
 /* Media @1000px */
 
 @media (min-width: 1000px) {
+    p {
+        font-size: 1.2em;
+    }
+
     .banner {
         height: 500px;
     }
@@ -389,10 +393,19 @@ footer {
 
 @media (min-width: 1300px) {
     .banner {
-        height: 650px;
+        height: 700px;
+    }
+
+    .banner-text-h1 {
+        font-size: 3em;
+        letter-spacing: 5px;
     }
 
     p {
         font-size: 1.2em;
+    }
+
+    .section-text-container {
+        width: 800px;
     }
 }
